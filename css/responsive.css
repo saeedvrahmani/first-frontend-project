@@ -1,0 +1,86 @@
+@media (max-width: 900px) {
+  .navbar button {
+    display: none;
+  }
+  .navbar #logo1 {
+    display: none;
+  }
+  #logo2 {
+    display: block;
+  }
+  #navbar {
+    width: 90%;
+    margin: 0 10px;
+  }
+  .container {
+    text-align: center;
+    margin: auto;
+  }
+  #number_user_online {
+    display: none;
+  }
+  #left_warrper {
+    display: none;
+  }
+  #right_warrper {
+    display: none;
+  }
+  .welcome_left {
+    text-align: center;
+  }
+  .live_feedcontent {
+    display: none;
+  }
+  .game_item {
+    width: 50%;
+  }
+  .game_thump::before {
+    margin-left: -50%;
+  }
+  #d_flex {
+    overflow: hidden;
+    display: none;
+  }
+  .d_bonus {
+    display: none;
+  }
+  .navbar_bottom {
+    display: block;
+  }
+  .f_nav1 {
+    width: 30%;
+    margin: 10px 0;
+  }
+  .app_phone{
+  display: flex;
+    visibility: visible;
+  }
+  .modal_img{
+    display: none;
+  }
+
+}
+@media (max-width: 550px) {
+  .f_nav1 {
+    width: 50%;
+    margin: 10px 0;
+  }
+  .modal_img{
+    display: none;
+  }
+  /* .live_feedcontent{
+    margin: 10px;
+    display: block;
+  }
+  .live_feedcontent table thead .time {
+    display: none;
+    margin: 10px;
+  }
+  .live_feedcontent table thead .bet{
+    display: none;
+  } */
+  .menu_tabs{
+    display: none;
+  }
+  
+}
